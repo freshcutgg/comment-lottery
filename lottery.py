@@ -40,7 +40,7 @@ def get_comments(postId, token, offset=None):
         }
     """
     variables = {
-        "userId": "contest-lottery",
+        "userId": "comment-lottery",
         "postId": postId
     }
     payload = {
