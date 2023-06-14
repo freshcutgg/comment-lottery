@@ -1,10 +1,13 @@
 from flask import Flask, request
+from flask_cors import CORS
+
 import requests
 import json
 import random
 from urllib.parse import urlparse
 
 app = Flask(__name__)
+CORS(app)
 
 urlApi = 'https://graphql-gateway-z5giai34ua-uc.a.run.app/'
 
